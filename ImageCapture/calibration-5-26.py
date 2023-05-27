@@ -178,8 +178,8 @@ def fixPhotos(h, w, matrix, distortion, folderPath):
 # Example Calls
 
 
-height, width, mat, distort = calibrateCamera()
+#height, width, mat, distort = calibrateCamera()
 
 # undistort(height,width,mat,distort, "imagesFolder/Test4-0.JPEG")
 
-fixPhotos(height, width, mat, distort, "imagesFolder/*.JPEG")
+#fixPhotos(height, width, mat, distort, "imagesFolder/*.JPEG")
